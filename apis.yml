@@ -1,7 +1,28 @@
 aid: bithtv
 name: bith.tv
-description: bith.tv is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bith.ai (bith.tv) is an all-in-one, AI-powered video editing and content
+  creation platform for creators, letting users record, edit, resize, caption,
+  and publish short-form video reformatted for the major social platforms from a
+  single browser-based dashboard. Founded in 2019 and headquartered in Amman,
+  Jordan, the company is backed by 500 Global, BeyondCapital, Propeller, and
+  Oasis500. Bith does not currently expose a public developer API, SDKs, or
+  documentation surface; this profile was added to the API Evangelist network as
+  a 500 Global portfolio lead and enriched with what the company publicly
+  publishes (website, marketing tool pages, pricing, sign-up, and probed domain
+  security posture).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bith.ai/logos/bith-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/bithtv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video
+- Video Editing
+- Content Creation
+- AI
+- Media
+- Social Media
+- Creator Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bithtv-domain-security.yml
 - type: Website
   url: https://bith.ai
+- type: Pricing
+  url: https://bith.ai/pricing
+- type: SignUp
+  url: https://bith.ai/signup
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
